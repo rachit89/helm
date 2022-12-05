@@ -3,10 +3,10 @@ kind: Service              # 1
 metadata:
   name: sa-frontend-lb
 spec:
-  type: LoadBalancer       # 2
+  type: NodePort       
   ports:
   - port: 80               # 3
     protocol: TCP          # 4
-    targetPort: 80         # 5
-  selector:                # 6
-    app: sa-frontend       # 7
+    targetPort: 80         
+  selector:                
+    app: sa-frontend       
