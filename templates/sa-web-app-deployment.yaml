@@ -21,7 +21,7 @@ spec:
         app: sa-web-app
     spec:
       containers:
-      - image: rachit22/webapp-test:latest-34
+      - image: rachit22/webapp-test:latest-37
         imagePullPolicy: Always
         name: sa-web-app
         env:
