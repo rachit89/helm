@@ -1,0 +1,31 @@
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: service-ingress
+  namespace: default
+  annotations:
+    kubernetes.io/ingress.class: nginx
+spec:
+  rules:
+  - host: "rachit-k8s.rtd.squareops.co.in"
+    http:
+      paths:
+      - backend:
+          service:
+            name: sa-web-app-lb
+            port:
+              number: 8080
+        path: "/sentiment"
+        pathType: Prefix
+  - host: "rachit-k8s.rtd.squareops.co.in"
+    http:
+      paths:
+      - backend:
+          service:
+            name: sa-frontend-lb
+            port:
+              number: 80
+        path: /
+        pathType: Prefix
+status:
+  loadBalancer: {}
