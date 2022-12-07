@@ -1,1 +1,1 @@
-image: rachit22/webapp-test:latest-${BUILD_NUMBER}
+image: rachit22/webapp-test:latest-58
