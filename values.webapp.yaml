@@ -1,1 +1,2 @@
-image: rachit22/webapp-test:latest-66
+webapp:
+  image: rachit22/webapp-test:latest-66
