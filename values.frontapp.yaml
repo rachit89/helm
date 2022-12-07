@@ -1,0 +1,1 @@
+image: rachit22/frontapp-test:latest-${BUILD_NUMBER}
