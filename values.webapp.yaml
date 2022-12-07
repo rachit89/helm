@@ -1,1 +1,1 @@
-echo "image: rachit22/webapp-test:latest-${BUILD_NUMBER}" > /var/jenkins_home/workspace/xyz/helm/values.webapp.yaml
+image: rachit22/webapp-test:latest-${BUILD_NUMBER}
