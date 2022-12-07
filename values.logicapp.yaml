@@ -1,1 +1,2 @@
-frontapp:
+logicapp:
+  image: rachit22/logicapp-test:latest-70
