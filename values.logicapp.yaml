@@ -1,1 +1,2 @@
-image: rachit22/logicapp-test:latest-66
+logicapp:
+  image: rachit22/logicapp-test:latest-66
