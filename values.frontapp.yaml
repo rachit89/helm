@@ -1,2 +1,1 @@
-frontapp:
-  image: rachit22/frontapp-test:latest-61
+image: rachit22/frontapp-test:latest-62
