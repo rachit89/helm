@@ -3,7 +3,7 @@ kind: Service
 metadata:
   name: sa-web-app-lb
 spec:
-  type: NodePort
+  type: LoadBalancer
   ports:
   - port: 8080
     protocol: TCP
